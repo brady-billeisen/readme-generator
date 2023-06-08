@@ -4,48 +4,59 @@ const fs = require('fs');
 
 inquirer.prompt([
     {
-        type: 'input',
         name: 'title',
+        type: 'input',
         message: 'What is the title of your project?'
     },
     {
-        type: 'input',
         name: 'description',
+        type: 'input',
         message: 'Please provide a description of your project.'
     },
     {
-        type: 'input',
         name: 'installation',
+        type: 'input',
         message: 'Please provide installation instructions for your project.'
     },
     {
-        type: 'input',
         name: 'usage',
+        type: 'input',
         message: 'Please provide usage information for your project.'
     },
     {
-        type: 'input',
         name: 'contribution',
+        type: 'input',
         message: 'Please provide contribution guidelines for your project.'
     },
     {
-        type: 'input',
         name: 'test',
+        type: 'input',
         message: 'Please provide test instructions for your project.'
     },
     {
-        type: 'input',
         name: 'license',
-        message: 'Please provide license information for your project.'
+        type: 'list',
+        message: 'Please provide license information for your project.',
+        choices: [
+            'None', 
+            'Apache License 2.0', 
+            'GNU GPLv3', 
+            'MIT License', 
+            'ISC License', 
+            'Boost Software License 1.0', 
+            'Creative Commons Zero v1.0', 
+            'Eclipse Public License 2.0', 
+            'Mozilla Public License 2.0'
+        ]
     },
     {
-        type: 'input',
         name: 'github',
+        type: 'input',
         message: 'Please provide your GitHub username.'
     },
     {
-        type: 'input',
         name: 'email',
+        type: 'input',
         message: 'Please provide your email address.'
     }
 ])
