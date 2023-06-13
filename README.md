@@ -1,7 +1,7 @@
 # README Generator
 
 ## Description
-The README Generator is a command-line application that enables users to quickly generate well-structured and professional README.md files for their projects. By prompting users with a series of questions about their project, such as the title, description, installation instructions, usage information, and more, the application automatically generates a README.md file with organized sections. This simplifies the process of creating informative and consistent project documentation, saving time and ensuring clarity for developers and collaborators. With the README Generator, users can effortlessly generate README files that effectively communicate project details, contributing to better project management and documentation practices.
+The README Generator is a command line application designed to simplify the process of creating professional README files for your projects. With its user-friendly interface, this tool prompts you for essential project details, such as the project description, installation instructions, usage guidelines, contribution guidelines, testing procedures, and licensing information. By providing a streamlined workflow, the README Generator allows you to generate well-structured and informative README files with ease. Save time and effort by using the README Generator to create polished documentation for your projects.
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
@@ -10,22 +10,16 @@ The README Generator is a command-line application that enables users to quickly
 - [License](#license)
 - [Questions](#questions)
 ## Installation
-Fork & clone GitHub repo
-
-Once inside the project run the command
-
-`npm i inquirer@8.2.4`
-
-When ready to use the application simply run the command 
-
-`node index.js`
+To install this application, follow these steps:<br>1. Clone repository to your local machine<br>2. Run command `npm i inquirer@8.2.4`
 ## Usage
-n/a
+To use this application, simply run the command `node index.js`. From there just answer the prompts given within your terminal and the application will generate a README.md file for your project.
 ## Contribution
-n/a
+I am not currently accepting any contributions for this project.
 ## Test
-n/a
+N/A
 ## License
 MIT License
 ## Questions
-If you have any questions, please contact me at bradybill32@gmail.com. You can also find more of my work at [brady-billeisen](github.com/brady-billeisen).
+If you have any questions or need further assistance, feel free to reach out.
+Email: [bradybill32@gmail.com](mailto:bradybill32@gmail.com)
+GitHub: [brady-billeisen](https://github.com/brady-billeisen)

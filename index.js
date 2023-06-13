@@ -4,39 +4,37 @@ const fs = require('fs');
 
 inquirer.prompt([
     {
+        name: 'Introduction',
+        message: 'Welcome to the README Generator! Please answer the following questions to generate your README.md file. Use <br> with no spaces on either side to create a new line, if needed. Press Enter/Return to get started.'
+    },
+    {
         name: 'title',
-        type: 'input',
         message: 'What is the title of your project?'
     },
     {
         name: 'description',
-        type: 'input',
         message: 'Please provide a description of your project.'
     },
     {
         name: 'installation',
-        type: 'input',
         message: 'Please provide installation instructions for your project.'
     },
     {
         name: 'usage',
-        type: 'input',
         message: 'Please provide usage information for your project.'
     },
     {
         name: 'contribution',
-        type: 'input',
         message: 'Please provide contribution guidelines for your project.'
     },
     {
         name: 'test',
-        type: 'input',
         message: 'Please provide test instructions for your project.'
     },
     {
         name: 'license',
         type: 'list',
-        message: 'Please provide license information for your project.',
+        message: 'Please provide license information for your project. Use the arrow keys and the enter/return key to select a license.',
         choices: [
             'None', 
             'Apache License 2.0', 
@@ -51,12 +49,10 @@ inquirer.prompt([
     },
     {
         name: 'github',
-        type: 'input',
         message: 'Please provide your GitHub username.'
     },
     {
         name: 'email',
-        type: 'input',
         message: 'Please provide your email address.'
     }
 ])
@@ -88,7 +84,9 @@ ${answers.test}
 ## License
 ${answers.license}
 ## Questions
-If you have any questions, please contact me at ${answers.email}. You can also find more of my work at [${answers.github}](github.com/${answers.github}).`.trim();
+If you have any questions or need further assistance, feel free to reach out.
+Email: [${answers.email}](mailto:${answers.email})
+GitHub: [${answers.github}](https://github.com/${answers.github})`.trim();
 
     fs.writeFile('README.md', readMeContent, (err) => {
         if (err) throw err;
