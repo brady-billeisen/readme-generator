@@ -19,6 +19,8 @@ To use this application, simply run the command `node index.js`. From there just
 I am not currently accepting any contributions for this project.
 ## Test
 N/A
+## Visuals
+[README Generator Demo](./visuals/example.mp4)
 ## License
 MIT License
 ## Questions

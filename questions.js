@@ -4,6 +4,10 @@ module.exports = [
         message: 'Welcome to the README Generator! Please answer the following questions to generate your README.md file. Use <br> with no spaces on either side to create a new line, if needed. Press Enter/Return to get started.'
     },
     {
+        name: 'fileName',
+        message: 'What would you like to name your README.md file? Please include the path and file extension.'
+    },
+    {
         name: 'title',
         message: 'What is the title of your project?'
     },
