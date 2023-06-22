@@ -20,7 +20,7 @@ I am not currently accepting any contributions for this project.
 ## Test
 N/A
 ## Visuals
-[README Generator Demo](./visuals/example.mp4)
+[README Generator Demo](https://www.awesomescreenshot.com/video/18565086?key=d91e41ce21b178200bb6b2c3b6d31322)
 ## License
 MIT License
 ## Questions
